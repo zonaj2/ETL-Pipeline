@@ -12,8 +12,8 @@ In this project, I implemented an ETL (Extract, Transform, Load) pipeline using 
 ## Key Steps:
 1. **Created Category and Subcategory DataFrames**
    - Imported data from crowdfunding.xlsx using `pd.read_excel`.
-   - Created a category DataFrame with "category_id" and "category" columns.
-   - Created a subcategory DataFrame with "subcategory_id" and "subcategory" columns.
+   - Created a category DataFrame with "category_id" and "category" columns using str.split and list comprehension.
+   - Created a subcategory DataFrame with "subcategory_id" and "subcategory" columns using str.split and list comprehension.
    
 <img src="Resources/category_DataFrame.png" width="250" height="400">
 
